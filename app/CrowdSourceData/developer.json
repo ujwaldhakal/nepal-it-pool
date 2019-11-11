@@ -1,0 +1,19 @@
+[ 
+  {
+   "name": "Ujwal Dhakal",
+   "email": "kevin.ujwal@gmail.com",
+   "designation" : "developer",
+   "experience" : "5",
+   "skills" : ["php","javascript","java"]
+ },
+ 
+ {
+  "name": "Sudhir Panday",
+  "email": "sudhir@gmail.com",
+  "designation" : "developer",
+  "experience" : "3",
+  "skills" : ["php"]
+}
+ 
+]
+

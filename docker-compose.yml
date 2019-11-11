@@ -1,0 +1,13 @@
+version: '2'
+services:
+  itpool.pv:
+    container_name: itpool.pv
+    build: ./
+    environment:
+      - VIRTUAL_HOST=itpool.pv
+      - APP_ENV=dev
+    volumes:
+      - ./app:/go/src/github.com/user/sites/app
+    ports:
+      - "5000:8080"
+
