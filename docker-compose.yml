@@ -6,8 +6,18 @@ services:
     environment:
       - VIRTUAL_HOST=itpool.pv
       - APP_ENV=dev
+      - GIN_MODE=release
     volumes:
       - ./app:/go/src/github.com/user/sites/app
     ports:
       - "5000:8080"
+    depends_on:
+      - elasticsearch
+  elasticsearch:
+    container_name: 'elasticsearch'
+    image: 'docker.elastic.co/elasticsearch/elasticsearch:7.4.2'
+    environment:
+      - discovery.type=single-node
+    ports:
+      - '9200:9200'
 

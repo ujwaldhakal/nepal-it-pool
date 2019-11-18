@@ -13,8 +13,6 @@ func regRoutes(routes *gin.Engine) {
 	})
 }
 
-
-
 func main() {
 
 	routes := gin.Default()
@@ -22,5 +20,3 @@ func main() {
 	routes.Run() // run in 8080 port
 
 }
-
-
