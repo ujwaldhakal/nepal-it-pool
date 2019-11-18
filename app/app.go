@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-)
+	"github.com/user/sites/app/migration")
 
 func regRoutes(routes *gin.Engine) {
 
@@ -16,6 +16,8 @@ func regRoutes(routes *gin.Engine) {
 func main() {
 
 	routes := gin.Default()
+	migration.BulkImportDevData()
+
 	registerDeveloperRoutes(routes)
 	routes.Run() // run in 8080 port
 

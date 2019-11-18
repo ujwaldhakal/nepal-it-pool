@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"encoding/json"
 	"github.com/user/sites/app/entity"
+	"github.com/user/sites/app/migration"
+
 	 "strconv"
 )
 
@@ -27,7 +29,7 @@ func listDevelopers(router *gin.Context) {
 	var developer []developerType
 
 	developerFileData, err := ioutil.ReadFile("crowdSourceData/developer.json")
-    
+
     if err != nil {
 
         fmt.Println(err)
@@ -41,15 +43,11 @@ func listDevelopers(router *gin.Context) {
 
 	if offset == "" {
 		offset = "0"
-		fmt.Println("ok i do")
-
 	}
 
 	if limit == "" {
-		limit = "1"
-	
+		limit = "10"
 	}
-
 	
 	
 	DataLimit, err := strconv.Atoi(limit)
@@ -58,6 +56,7 @@ func listDevelopers(router *gin.Context) {
 	fmt.Println(limit)
 	fmt.Println(offset)
 
+	migration.BulkImportDevData()
 	
 	router.JSON(200, gin.H{
 		"status": "up",
