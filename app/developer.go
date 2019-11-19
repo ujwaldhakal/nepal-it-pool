@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"encoding/json"
 	"github.com/user/sites/app/entity"
-	"github.com/user/sites/app/migration"
 
 	 "strconv"
 )
@@ -56,8 +55,6 @@ func listDevelopers(router *gin.Context) {
 	fmt.Println(limit)
 	fmt.Println(offset)
 
-	migration.BulkImportDevData()
-	
 	router.JSON(200, gin.H{
 		"status": "up",
 		"data" : entity.GetAllDeveloperData(DataOffset,DataLimit),
