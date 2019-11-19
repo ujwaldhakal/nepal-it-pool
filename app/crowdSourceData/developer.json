@@ -1,8 +1,19 @@
-[ 
+[
   {
    "name": "Ujwal Dhakal zxc",
    "email": "kevin.ujwal@gmail.com",
    "designation" : "developer",
+   "experience" : "5",
+   "skills" : ["php","javascript","java"],
+   "availability": false,
+   "actively_job_searching": false,
+   "github_url" : "https://github.com/ujwaldhakal" ,
+   "linkedin_url" : "shouldhave"
+ },
+  {
+   "name": "Ujwal Dhakal zxc 123123",
+   "email": "kevin.ujwal@gmail.com 123",
+   "designation" : "developer 123",
    "experience" : "5",
    "skills" : ["php","javascript","java"],
    "availability": false,

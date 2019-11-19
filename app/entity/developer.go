@@ -3,7 +3,7 @@ package entity
 import (
   "fmt"
   "encoding/json"
-  "reflect"
+  //_ "reflect"
   "context"
   "github.com/olivere/elastic"
   elasticsearch "github.com/user/sites/app/services"
@@ -26,7 +26,8 @@ type DeveloperCollection struct {
   Total int64
 }
 
-func GetAllDeveloperData(offset, limit int) DeveloperCollection  {
+
+func GetAllDeveloperData(offset, limit int, searchQuery DeveloperSearchQuery) DeveloperCollection  {
   ctx := context.Background()
   client := elasticsearch.CreateClient()
 
@@ -59,7 +60,7 @@ func GetAllDeveloperData(offset, limit int) DeveloperCollection  {
         developers = append(developers,devData)
       }
 
-    fmt.Println(reflect.TypeOf(developers))
+    //fmt.Println(reflect.TypeOf(developers))
     fmt.Println(developers)
 
 
