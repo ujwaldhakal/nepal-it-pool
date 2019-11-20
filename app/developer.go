@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	_ "reflect"
 	"github.com/user/sites/app/entity"
+  SearchableDeveloper "github.com/user/sites/app/services/struct"
 
 	 "strconv"
 )
@@ -26,15 +27,10 @@ type developerArray struct {
 }
 
 
-type DeveloperSearchQuery struct {
-    Name string `form:"name" json:"name"`
-    Designation string `form:"designation" json:"designation"`
-    LookingForJob string `form:"actively_job_searching" json:"actively_job_searching"`
-}
 
 func listDevelopers(router *gin.Context) {
 	var developer []developerType
-  var searchQuery DeveloperSearchQuery
+  var searchQuery SearchableDeveloper.DeveloperSearchableFields
   router.BindQuery(&searchQuery)
 
   developerFileData, err := ioutil.ReadFile("crowdSourceData/developer.json")

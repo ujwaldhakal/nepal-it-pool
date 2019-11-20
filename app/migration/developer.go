@@ -16,7 +16,7 @@ type developer struct {
   Email       string   `json:"email"`
   Designation string   `json:"designation"`
   Experience  string   `json:"experience"`
-  Skills      []string `json:"skills"`
+  Skills      []interface{} `json:"skills"`
 }
 
 

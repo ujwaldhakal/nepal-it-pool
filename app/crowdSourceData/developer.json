@@ -1,36 +1,17 @@
 [
   {
-   "name": "Ujwal Dhakal zxc",
+   "name": "Ujwal Dhakal ",
    "email": "kevin.ujwal@gmail.com",
-   "designation" : "developer",
+   "designation" : "Software Engineer",
    "experience" : "5",
-   "skills" : ["php","javascript","java"],
-   "availability": false,
+   "skills" : ["php","node","go"],
+    "current_company" : "Pagevamp",
+    "is_intern" : false,
    "actively_job_searching": false,
+    "address" : "Kathmandu,Nepal",
+    "state" : 3,
    "github_url" : "https://github.com/ujwaldhakal" ,
-   "linkedin_url" : "shouldhave"
- },
-  {
-   "name": "Ujwal Dhakal zxc 123123",
-   "email": "kevin.ujwal@gmail.com 123",
-   "designation" : "developer 123",
-   "experience" : "5",
-   "skills" : ["php","javascript","java"],
-   "availability": false,
-   "actively_job_searching": false,
-   "github_url" : "https://github.com/ujwaldhakal" ,
-   "linkedin_url" : "shouldhave"
- },
- {
-   "name": "Sudhir Pandey",
-   "email": "sudhir@gmail.com",
-   "designation" : "designer",
-   "experience" : "7",
-   "skills" : ["php","go"],
-   "availability": false,
-   "actively_job_searching": false,
-   "github_url" : "https://github.com/ujwaldhakal" ,
-   "linkedin_url" : "shouldhave"
+   "linkedin_url" : ""
  }
 
 ]
