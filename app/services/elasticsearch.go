@@ -10,7 +10,10 @@ func CreateClient() *elastic.Client {
 
   var elasticSearchUrl string = os.Getenv("ELASTIC_HOST_URL")
 
-  client, err := elastic.NewClient(elastic.SetURL(elasticSearchUrl))
+  client, err := elastic.NewClient(
+    elastic.SetURL(elasticSearchUrl),
+    elastic.SetSniff(false),
+    )
   if err != nil {
     fmt.Println(err)
   }

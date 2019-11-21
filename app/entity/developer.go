@@ -13,15 +13,22 @@ import (
 
 
 
-type Developer struct{
-
-	Name string `json:"name"`
-	Email string `json:"email"`
-	Designation string `json:"designation"`
-	Experience string `json:"experience"`
-	Skills []string `json:"skills"`
+type Developer struct {
+  Name        string   `json:"name"`
+  Email       string   `json:"email"`
+  Designation string   `json:"designation"`
+  Experience  int   `json:"experience"`
+  Skills      []interface{} `json:"skills"`
+  CurrentCompany string   `json:"current_company"`
+  IsIntern bool   `json:"is_intern"`
+  ActivelyJobSearching bool   `json:"actively_job_searching"`
+  Address string   `json:"address"`
+  State string   `json:"state"`
+  GithubUrl string   `json:"github_url"`
+  LinkedinUrl string   `json:"linkedin_url"`
 
 }
+
 
 type DeveloperCollection struct {
   Developers []Developer
@@ -33,8 +40,6 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
   ctx := context.Background()
   client := elasticsearch.CreateClient()
 
-  fmt.Println("ok earching")
-  fmt.Println(searchFields)
 
   searchQuery := elastic.NewBoolQuery()
 
@@ -42,7 +47,24 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
       searchQuery.Must(elastic.NewMultiMatchQuery(searchFields.Name,"name").Type("phrase_prefix"))
     }
 
-    if searchFields.Designation != "" {
+    if searchFields.LookingForJob == true {
+      searchQuery.Must(elastic.NewTermQuery("actively_job_searching",true))
+    }
+
+  if searchFields.Intern == true {
+    searchQuery.Must(elastic.NewTermQuery("is_intern",true))
+  }
+
+
+  if searchFields.Address != "" {
+    searchQuery.Must(elastic.NewMultiMatchQuery(searchFields.Address,"address").Type("phrase_prefix"))
+  }
+
+  if searchFields.State != "" {
+    searchQuery.Must(elastic.NewMultiMatchQuery(searchFields.State,"state").Type("phrase_prefix"))
+  }
+
+  if searchFields.Designation != "" {
       searchQuery.Must(elastic.NewMultiMatchQuery(searchFields.Designation,"designation").Type("phrase_prefix"))
     }
 
@@ -95,7 +117,6 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
       }
 
     //fmt.Println(reflect.TypeOf(developers))
-    fmt.Println(developers)
 
 
   }
