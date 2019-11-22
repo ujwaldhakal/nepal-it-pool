@@ -25,3 +25,11 @@ jobs:
         uses: actions/gcloud/cli@master
         with:
           args: "components install beta --quiet && gcloud beta run deploy ${{ secrets.CLOUD_RUN_SERVICE_NAME }} --image gcr.io/${{ secrets.GCLOUD_PROJECT_ID }}/nepal-it-pool --platform managed  --region us-central1 --project=${{ secrets.GCLOUD_PROJECT_ID }}"
+
+      - name: Run migration
+        uses: actions/gcloud/cli@master
+        with:
+          args: "cd migration && go run developer.go"
+
+
+

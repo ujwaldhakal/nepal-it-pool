@@ -71,7 +71,7 @@ func listDevelopers(router *gin.Context) {
 
 func registerDeveloperRoutes(routes *gin.Engine) {
 
-	routes.GET("/developers", listDevelopers)
+	routes.GET("/", listDevelopers)
 }
 
 
