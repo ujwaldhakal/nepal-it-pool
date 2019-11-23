@@ -12,6 +12,20 @@
     "state" : "3",
    "github_url" : "https://github.com/ujwaldhakal" ,
    "linkedin_url" : ""
+ },
+  {
+   "name": "Amit Chaudhary",
+   "email": "meamitkc@gmail.com",
+   "designation" : "Machine Learning Engineer",
+   "experience" : 2,
+   "skills" : ["python","flask", "django", "aws", "tensorflow", "pytorch", "nlp"],
+    "current_company" : "Fusemachines",
+    "is_intern" : false,
+   "actively_job_searching": false,
+    "address" : "Kathmandu, Nepal",
+    "state" : "3",
+   "github_url" : "https://github.com/amitness" ,
+   "linkedin_url" : "https://www.linkedin.com/in/amitness"
  }
 ]
 
