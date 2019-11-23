@@ -1,12 +1,12 @@
 version: '2'
 services:
-  itpool.pv:
-    container_name: itpool.pv
+  nepal-it-pool:
+    container_name: nepal-it-pool
     build: ./
     environment:
       - VIRTUAL_HOST=itpool.pv
       - APP_ENV=dev
-      - ELASTIC_HOST_URL=http://172.19.0.2:9200
+      - ELASTIC_HOST_URL=http://elasticsearch:9200
       - GIN_MODE=release
     volumes:
       - ./app:/go/src/github.com/user/sites/app

@@ -11,6 +11,11 @@ RUN go build
 
 CMD if [ ${APP_ENV} = production ]; \
 	then \
+	go run migration/developer.go \
+	fi
+
+CMD if [ ${APP_ENV} = production ]; \
+	then \
 	app; \
 	else \
 	go get github.com/pilu/fresh && \
