@@ -23,9 +23,24 @@
    "is_intern" : false,
    "actively_job_searching": false,
    "address" : "Sydney, Australia",
-   "state" : "3",
+   "state" : "",
    "twitter_url": "https://twitter.com/geshan",
    "github_url" : "https://github.com/geshan" ,
    "linkedin_url" : "https://www.linkedin.com/in/geshan/"
+ },
+   {
+        "name": "Pramesh Bajracharya ",
+        "email": "pe.messh@gmail.com",
+        "designation": "Software Engineer",
+        "experience": 2,
+        "skills": ["javascript", "java", "python"],
+        "current_company": "Codemantra",
+        "is_intern": false,
+        "actively_job_searching": false,
+        "address": "Chabahil, Kathmandu, Nepal",
+        "state": "-",
+        "github_url": "https://github.com/prameshbajra",
+        "linkedin_url": ""
  }
 ]
+
