@@ -102,12 +102,10 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
   }
 
   var developers []Developer
-  var devData Developer
 
   if searchResult.TotalHits() > 0 {
-
     for _, hit := range searchResult.Hits.Hits {
-
+      var devData Developer
         err := json.Unmarshal(hit.Source, &devData)
         if err != nil {
             developers = append(developers,devData)
