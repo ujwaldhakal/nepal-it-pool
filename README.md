@@ -58,4 +58,4 @@ Go and elasticsearch has been used for this api.
 * Send PR with clear details 
 
 
-[![Generic badge](https://github.com/ujwaldhakal/nepal-it-pool/workflows/Build%and%Push/badge.svg)](https://github.com/ujwaldhakal/nepal-it-pool/actions)
+[![Generic badge](https://github.com/ujwaldhakal/nepal-it-pool/workflows/Build%20and%20Push/badge.svg)](https://github.com/ujwaldhakal/nepal-it-pool/actions)
