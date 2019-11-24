@@ -12,7 +12,7 @@ func CreateClient() *elastic.Client {
 
   client, err := elastic.NewClient(
     elastic.SetURL(elasticSearchUrl),
-    elastic.SetSniff(false),
+     elastic.SetSniff(false),
     )
   if err != nil {
     fmt.Println(err)

@@ -50,7 +50,7 @@ const mapping = `
 					"type":"text"
 				},
 				"state":{
-					"type":"integer"
+					"type":"text"
 				},
 				"github_url":{
 					"type":"text"
@@ -68,7 +68,7 @@ func jsonToStruct() []entity.Developer {
 
   developers := []entity.Developer{}
 
-  developerFileData, err := ioutil.ReadFile("../crowdSourceData/developer.json")
+  developerFileData, err := ioutil.ReadFile("/go/src/github.com/user/sites/app/crowdSourceData/developer.json")
 
   if err != nil {
 
