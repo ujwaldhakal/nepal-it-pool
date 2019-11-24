@@ -53,6 +53,20 @@
       "state": "-",
       "github_url": "https://github.com/prameshbajra",
       "linkedin_url": ""
- }
+ },
+ {
+  "name": "Kusum Gole",
+  "email": "kusumgole67@gmail.com",
+  "designation" : "Quality Assurance Lead",
+  "experience" : 5,
+  "skills" : ["Manual testing","Test cases","Test Strategy","Automation Testing"],
+  "current_company" : "Outside",
+  "is_intern" : false,
+  "actively_job_searching": false,
+  "address" : "Kathmandu, Nepal",
+  "state" : "3",
+  "github_url" : "https://github.com/Ksmgole" ,
+  "linkedin_url" : "https://www.linkedin.com/in/kusum-gole-244817102/"
+}
 ]
 
