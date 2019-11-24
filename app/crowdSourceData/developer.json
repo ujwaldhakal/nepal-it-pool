@@ -53,6 +53,19 @@
       "state": "-",
       "github_url": "https://github.com/prameshbajra",
       "linkedin_url": ""
+ },
+  {  "name": "Sagar Giri",
+      "email": "girisagar46@gmail.com",
+      "designation": "Software Engineer",
+      "experience": 4,
+      "skills": ["python", "django", "AWS", "kubernetes", "docker"],
+      "current_company": "beBit Inc.",
+      "is_intern": false,
+      "actively_job_searching": false,
+      "address": "Otemachi, Chiyoda-ku, Tokyo, Japan",
+      "state": "-",
+      "github_url": "https://github.com/girisagar46",
+      "linkedin_url": "https://www.linkedin.com/in/girisagar46/"
  }
 ]
 
