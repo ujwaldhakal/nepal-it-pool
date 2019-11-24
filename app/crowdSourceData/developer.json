@@ -1,15 +1,15 @@
 [
   {
-   "name": "Ujwal Dhakal ",
+   "name": "Ujwal Dhakal",
    "email": "kevin.ujwal@gmail.com",
    "designation" : "Software Engineer",
    "experience" : 5,
    "skills" : ["php","node","go"],
-    "current_company" : "Pagevamp",
-    "is_intern" : false,
+   "current_company" : "Pagevamp",
+   "is_intern" : false,
    "actively_job_searching": false,
-    "address" : "Kathmandu,Nepal",
-    "state" : "3",
+   "address" : "Kathmandu, Nepal",
+   "state" : "3",
    "github_url" : "https://github.com/ujwaldhakal" ,
    "linkedin_url" : ""
  },
@@ -26,6 +26,34 @@
     "state" : "3",
    "github_url" : "https://github.com/amitness" ,
    "linkedin_url" : "https://www.linkedin.com/in/amitness"
+  },
+   "name": "Geshan Manandhar",
+   "email": "geshan+itpool@gmail.com",
+   "designation" : "Senior Software Engineer",
+   "experience" : 11,
+   "skills" : ["php","nodejs","javacript", "python", "go", "git", "mysql"],
+   "current_company" : "THE ICONIC",
+   "is_intern" : false,
+   "actively_job_searching": false,
+   "address" : "Sydney, Australia",
+   "state" : "",
+   "twitter_url": "https://twitter.com/geshan",
+   "github_url" : "https://github.com/geshan" ,
+   "linkedin_url" : "https://www.linkedin.com/in/geshan/"
+ },
+   {
+        "name": "Pramesh Bajracharya ",
+        "email": "pe.messh@gmail.com",
+        "designation": "Software Engineer",
+        "experience": 2,
+        "skills": ["javascript", "java", "python"],
+        "current_company": "Codemantra",
+        "is_intern": false,
+        "actively_job_searching": false,
+        "address": "Chabahil, Kathmandu, Nepal",
+        "state": "-",
+        "github_url": "https://github.com/prameshbajra",
+        "linkedin_url": ""
  }
 ]
 
