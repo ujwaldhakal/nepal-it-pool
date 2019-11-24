@@ -54,8 +54,21 @@
       "github_url": "https://github.com/prameshbajra",
       "linkedin_url": ""
  },
+  {  "name": "Raju Dawadi",
+      "email": "rajudawadinp+itpool@gmail.com",
+      "designation": "DevOps",
+      "experience": 3,
+      "skills": ["container", "terraform", "cloud", "python"],
+      "current_company": "Pagevamp",
+      "is_intern": false,
+      "actively_job_searching": false,
+      "address": "Kathmandu, Nepal",
+      "state": "",
+      "github_url": "https://github.com/dwdraju",
+      "linkedin_url": "https://www.linkedin.com/in/dwdraju/"
+ },
  {  
-    "name": "Prajwal Shrestha ",
+    "name": "Prajwal Shrestha",
     "email": "prajwal_stha@yahoo.com",
     "designation": "Senior Software Engineer",
     "experience": 5,
@@ -83,4 +96,3 @@
   "linkedin_url" : "https://www.linkedin.com/in/kusum-gole-244817102/"
 }
 ]
-
