@@ -1,4 +1,4 @@
-version: '2'
+version: '2.1'
 services:
   nepal-it-pool:
     container_name: nepal-it-pool
@@ -13,6 +13,9 @@ services:
     ports:
       - "5000:8080"
     depends_on:
+       elasticsearch :
+          condition: service_healthy
+    links:
       - elasticsearch
   elasticsearch:
     container_name: 'elasticsearch'
@@ -21,4 +24,8 @@ services:
       - discovery.type=single-node
     ports:
       - '9200:9200'
-
+    healthcheck:
+      test: ["CMD", "curl", "http://localhost:9200"]
+      interval: 2s
+      timeout: 30s
+      retries: 50
