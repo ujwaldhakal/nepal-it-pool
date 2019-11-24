@@ -31,8 +31,8 @@ type Developer struct {
 
 
 type DeveloperCollection struct {
-  Developers []Developer
-  Total int64
+  Developers []Developer `json:"developers"`
+  Total int64 `json:"total"`
 }
 
 
@@ -116,14 +116,11 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
         developers = append(developers,devData)
       }
 
-    //fmt.Println(reflect.TypeOf(developers))
-
-
   }
 
   return DeveloperCollection{
-    developers : developers,
-    total : searchResult.TotalHits(),
+    Developers : developers,
+    Total : searchResult.TotalHits(),
   }
 
 }

@@ -58,4 +58,6 @@ Go and elasticsearch has been used for this api.
 * Send PR with clear details 
 
 
+Any suggestions to make search better please create issue with your detailed solutions :) 
+
 [![Generic badge](https://github.com/ujwaldhakal/nepal-it-pool/workflows/Build%20and%20Push/badge.svg)](https://github.com/ujwaldhakal/nepal-it-pool/actions)

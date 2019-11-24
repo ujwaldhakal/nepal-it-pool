@@ -27,7 +27,7 @@
    "github_url" : "https://github.com/amitness" ,
    "linkedin_url" : "https://www.linkedin.com/in/amitness"
   },
-   "name": "Geshan Manandhar",
+  {"name": "Geshan Manandhar",
    "email": "geshan+itpool@gmail.com",
    "designation" : "Senior Software Engineer",
    "experience" : 11,
@@ -41,19 +41,18 @@
    "github_url" : "https://github.com/geshan" ,
    "linkedin_url" : "https://www.linkedin.com/in/geshan/"
  },
-   {
-        "name": "Pramesh Bajracharya ",
-        "email": "pe.messh@gmail.com",
-        "designation": "Software Engineer",
-        "experience": 2,
-        "skills": ["javascript", "java", "python"],
-        "current_company": "Codemantra",
-        "is_intern": false,
-        "actively_job_searching": false,
-        "address": "Chabahil, Kathmandu, Nepal",
-        "state": "-",
-        "github_url": "https://github.com/prameshbajra",
-        "linkedin_url": ""
+  {  "name": "Pramesh Bajracharya ",
+      "email": "pe.messh@gmail.com",
+      "designation": "Software Engineer",
+      "experience": 2,
+      "skills": ["javascript", "java", "python"],
+      "current_company": "Codemantra",
+      "is_intern": false,
+      "actively_job_searching": false,
+      "address": "Chabahil, Kathmandu, Nepal",
+      "state": "-",
+      "github_url": "https://github.com/prameshbajra",
+      "linkedin_url": ""
  }
 ]
 

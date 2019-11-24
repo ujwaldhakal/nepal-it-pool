@@ -62,9 +62,11 @@ func listDevelopers(router *gin.Context) {
 	fmt.Println(limit)
 	fmt.Println(offset)
 
+	data := entity.GetAllDeveloperData(DataOffset,DataLimit,searchQuery)
 	router.JSON(200, gin.H{
 		"status": "up",
-		"data" : entity.GetAllDeveloperData(DataOffset,DataLimit,searchQuery),
+		"data" : data.Developers,
+		"total" : data.Total,
 	})
 }
 
