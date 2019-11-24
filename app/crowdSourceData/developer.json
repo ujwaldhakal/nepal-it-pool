@@ -66,6 +66,46 @@
       "state": "-",
       "github_url": "https://github.com/girisagar46",
       "linkedin_url": "https://www.linkedin.com/in/girisagar46/"
- }
+ },
+  {  "name": "Raju Dawadi",
+      "email": "rajudawadinp+itpool@gmail.com",
+      "designation": "DevOps",
+      "experience": 3,
+      "skills": ["container", "terraform", "cloud", "python"],
+      "current_company": "Pagevamp",
+      "is_intern": false,
+      "actively_job_searching": false,
+      "address": "Kathmandu, Nepal",
+      "state": "",
+      "github_url": "https://github.com/dwdraju",
+      "linkedin_url": "https://www.linkedin.com/in/dwdraju/"
+ },
+ {  
+    "name": "Prajwal Shrestha",
+    "email": "prajwal_stha@yahoo.com",
+    "designation": "Senior Software Engineer",
+    "experience": 5,
+    "skills": ["php", "javascript", "python"],
+    "current_company": "Hiup Solutions",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address": "Sinamangal, Kathmandu, Nepal",
+    "state": "-",
+    "github_url": "https://github.com/prajwalstha123",
+    "linkedin_url": "https://www.linkedin.com/in/prajwalstha"
+  },
+ {
+  "name": "Kusum Gole",
+  "email": "kusumgole67@gmail.com",
+  "designation" : "Quality Assurance Lead",
+  "experience" : 5,
+  "skills" : ["Manual testing","Test cases","Test Strategy","Automation Testing"],
+  "current_company" : "Outside",
+  "is_intern" : false,
+  "actively_job_searching": false,
+  "address" : "Kathmandu, Nepal",
+  "state" : "3",
+  "github_url" : "https://github.com/Ksmgole" ,
+  "linkedin_url" : "https://www.linkedin.com/in/kusum-gole-244817102/"
+}
 ]
-
