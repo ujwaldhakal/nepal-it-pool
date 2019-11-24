@@ -122,8 +122,8 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
   }
 
   return DeveloperCollection{
-    Developers : developers,
-    Total : searchResult.TotalHits(),
+    developers : developers,
+    total : searchResult.TotalHits(),
   }
 
 }
