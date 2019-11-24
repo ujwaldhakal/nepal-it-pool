@@ -1,17 +1,29 @@
-[
-  {
-   "name": "Ujwal Dhakal ",
-   "email": "kevin.ujwal@gmail.com",
-   "designation" : "Software Engineer",
-   "experience" : 5,
-   "skills" : ["php","node","go"],
-    "current_company" : "Pagevamp",
-    "is_intern" : false,
-   "actively_job_searching": false,
-    "address" : "Kathmandu,Nepal",
-    "state" : "3",
-   "github_url" : "https://github.com/ujwaldhakal" ,
-   "linkedin_url" : ""
- }
+[{
+        "name": "Ujwal Dhakal ",
+        "email": "kevin.ujwal@gmail.com",
+        "designation": "Software Engineer",
+        "experience": 5,
+        "skills": ["php", "node", "go"],
+        "current_company": "Pagevamp",
+        "is_intern": false,
+        "actively_job_searching": false,
+        "address": "Kathmandu,Nepal",
+        "state": "3",
+        "github_url": "https://github.com/ujwaldhakal",
+        "linkedin_url": ""
+    },
+    {
+        "name": "Pramesh Bajracharya ",
+        "email": "pe.messh@gmail.com",
+        "designation": "Software Engineer",
+        "experience": 2,
+        "skills": ["javascript", "java", "python"],
+        "current_company": "Codemantra",
+        "is_intern": false,
+        "actively_job_searching": false,
+        "address": "Chabahil, Kathmandu, Nepal",
+        "state": "-",
+        "github_url": "https://github.com/prameshbajra",
+        "linkedin_url": ""
+    }
 ]
-
