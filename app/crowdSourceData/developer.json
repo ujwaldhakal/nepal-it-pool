@@ -107,5 +107,19 @@
   "state" : "3",
   "github_url" : "https://github.com/Ksmgole" ,
   "linkedin_url" : "https://www.linkedin.com/in/kusum-gole-244817102/"
+},
+{ 
+  "name": "Jenish Shrestha", 
+  "email": "shrestha.jenish1@gmail.com", 
+  "designation": "Software Engineer", 
+  "experience": 1, 
+  "skills":["python", "django", "opencv", "javascript"], 
+  "current_company": "Prixa Technologies", 
+  "is_intern": false, 
+  "actively_job_searching": true, 
+  "address":"Kathmandu, Nepal", 
+  "state":"3", 
+  "github_url":"https://github.com/jenish1231", 
+  "linkedin_url":"https://www.linkedin.com/in/jenish-shrestha-365061143/" 
 }
 ]
