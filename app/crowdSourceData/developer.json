@@ -121,5 +121,19 @@
   "state":"3", 
   "github_url":"https://github.com/jenish1231", 
   "linkedin_url":"https://www.linkedin.com/in/jenish-shrestha-365061143/" 
+},
+{ 
+  "name": "Nechar Joshi", 
+  "email": "joshinechar@gmail.com", 
+  "designation": "Software Engineer", 
+  "experience": 6, 
+  "skills":[ "TypeScript", "JavaScript", "Angular", "React", "Laravel", "NodeJS", "Vue"], 
+  "current_company": "Resimac", 
+  "is_intern": false, 
+  "actively_job_searching": false, 
+  "address":"Sydney, Australia", 
+  "state":"NSW", 
+  "github_url":"https://github.com/nechar", 
+  "linkedin_url":"https://www.linkedin.com/in/nechar/" 
 }
 ]
