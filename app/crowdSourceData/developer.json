@@ -137,6 +137,7 @@
   "linkedin_url":"https://www.linkedin.com/in/nechar/" 
 },
 { 
+
   "name": "Basanta Dhakal", 
   "email": "basantaoffice@gmail.com", 
   "designation": "Senior Software Engineer", 
@@ -147,7 +148,9 @@
   "actively_job_searching": false, 
   "address":"Kathmandu, Nepal", 
   "state":"3", 
+
   "github_url":"https://github.com/basanta123", 
   "linkedin_url":"https://www.linkedin.com/in/basanta-dhakal-ab282160/" 
+
 }
 ]
