@@ -150,6 +150,22 @@
   "github_url":"https://github.com/nechar",
   "linkedin_url":"https://www.linkedin.com/in/nechar/"
 },
+
+{ 
+  "name": "Deepak Bhattarai", 
+  "email": "bring2dip@gmail.com", 
+  "designation": "Software Engineer", 
+  "experience": 7, 
+  "skills":[ "JavaScript", "Swift", "MongoDB", "MySQL", "NodeJS", "React", "D3JS"], 
+  "current_company": "Namchey", 
+  "is_intern": false, 
+  "actively_job_searching": false, 
+  "address":"Kathmandu, Nepal", 
+  "state":"3", 
+  "github_url":"https://github.com/bring2dip", 
+  "twitter_url": "https://twitter.com/bring2dip",
+  "linkedin_url":"" 
+},
 {
 
   "name": "Basanta Dhakal",
