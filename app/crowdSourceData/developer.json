@@ -94,7 +94,7 @@
       "github_url": "https://github.com/dwdraju",
       "linkedin_url": "https://www.linkedin.com/in/dwdraju/"
  },
- {  
+ {
     "name": "Prajwal Shrestha",
     "email": "prajwal_stha@yahoo.com",
     "designation": "Senior Software Engineer",
@@ -122,49 +122,61 @@
   "github_url" : "https://github.com/Ksmgole" ,
   "linkedin_url" : "https://www.linkedin.com/in/kusum-gole-244817102/"
 },
-{ 
-  "name": "Jenish Shrestha", 
-  "email": "shrestha.jenish1@gmail.com", 
-  "designation": "Software Engineer", 
-  "experience": 1, 
-  "skills":["python", "django", "opencv", "javascript"], 
-  "current_company": "Prixa Technologies", 
-  "is_intern": false, 
-  "actively_job_searching": true, 
-  "address":"Kathmandu, Nepal", 
-  "state":"3", 
-  "github_url":"https://github.com/jenish1231", 
-  "linkedin_url":"https://www.linkedin.com/in/jenish-shrestha-365061143/" 
+{
+  "name": "Jenish Shrestha",
+  "email": "shrestha.jenish1@gmail.com",
+  "designation": "Software Engineer",
+  "experience": 1,
+  "skills":["python", "django", "opencv", "javascript"],
+  "current_company": "Prixa Technologies",
+  "is_intern": false,
+  "actively_job_searching": true,
+  "address":"Kathmandu, Nepal",
+  "state":"3",
+  "github_url":"https://github.com/jenish1231",
+  "linkedin_url":"https://www.linkedin.com/in/jenish-shrestha-365061143/"
 },
-{ 
-  "name": "Nechar Joshi", 
-  "email": "joshinechar@gmail.com", 
-  "designation": "Software Engineer", 
-  "experience": 6, 
-  "skills":[ "TypeScript", "JavaScript", "Angular", "React", "Laravel", "NodeJS", "Vue"], 
-  "current_company": "Resimac", 
-  "is_intern": false, 
-  "actively_job_searching": false, 
-  "address":"Sydney, Australia", 
-  "state":"NSW", 
-  "github_url":"https://github.com/nechar", 
-  "linkedin_url":"https://www.linkedin.com/in/nechar/" 
+{
+  "name": "Nechar Joshi",
+  "email": "joshinechar@gmail.com",
+  "designation": "Software Engineer",
+  "experience": 6,
+  "skills":[ "TypeScript", "JavaScript", "Angular", "React", "Laravel", "NodeJS", "Vue"],
+  "current_company": "Resimac",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address":"Sydney, Australia",
+  "state":"NSW",
+  "github_url":"https://github.com/nechar",
+  "linkedin_url":"https://www.linkedin.com/in/nechar/"
 },
-{ 
+{
 
-  "name": "Basanta Dhakal", 
-  "email": "basantaoffice@gmail.com", 
-  "designation": "Senior Software Engineer", 
-  "experience": 7, 
-  "skills":[ "PHP", "JavaScript","Laravel", "NodeJS", "Mysql"], 
-  "current_company": "Hiup Solutions", 
-  "is_intern": false, 
-  "actively_job_searching": false, 
-  "address":"Kathmandu, Nepal", 
-  "state":"3", 
-
-  "github_url":"https://github.com/basanta123", 
-  "linkedin_url":"https://www.linkedin.com/in/basanta-dhakal-ab282160/" 
-
-}
+  "name": "Basanta Dhakal",
+  "email": "basantaoffice@gmail.com",
+  "designation": "Senior Software Engineer",
+  "experience": 7,
+  "skills":[ "PHP", "JavaScript","Laravel", "NodeJS", "Mysql"],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address":"Kathmandu, Nepal",
+  "state":"3",
+  "github_url":"https://github.com/basanta123",
+  "linkedin_url":"https://www.linkedin.com/in/basanta-dhakal-ab282160/"
+},
+  {
+    "name": "Milan Maharjan",
+    "email": "milan.com@gmail.com",
+    "designation": "Developer",
+    "experience": 6,
+    "skills":[ "PHP", "Vue", "Laravel", "Aws"],
+    "current_company": "Hiup Solutions",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address":"Kathmandu, Nepal",
+    "state":"3",
+    "github_url":"https://github.com/mln-mln-mln",
+    "linkedin_url":"https://www.linkedin.com/in/milanmaharjan/"
+  }
 ]
