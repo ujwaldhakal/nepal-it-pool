@@ -13,6 +13,20 @@
    "github_url" : "https://github.com/ujwaldhakal" ,
    "linkedin_url" : ""
  },
+    {
+   "name": "Dhiraj Timalsina",
+   "email": "dhiraj201site@gmail.com",
+   "designation" : "Full Stack Developer",
+   "experience" : 6,
+   "skills" : ["php","javascript","nodejs", "python", "java"],
+   "current_company" : "N49",
+   "is_intern" : false,
+   "actively_job_searching": false,
+   "address" : "Toronto, Ontario",
+   "state" : "3",
+   "github_url" : "https://github.com/dhiraj1site" ,
+   "linkedin_url" : ""
+ },
   {
    "name": "Amit Chaudhary",
    "email": "meamitkc@gmail.com",
