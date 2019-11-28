@@ -1,5 +1,8 @@
 #!/bin/bash
-go run migration/developer.go
+if [ ${APP_ENV} != production ]; \
+then \
+go run migration/developer.go; \
+fi
 
 if [ ${APP_ENV} = production ]; \
 	then \
