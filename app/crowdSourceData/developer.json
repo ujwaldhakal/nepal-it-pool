@@ -194,5 +194,33 @@
     "state":"3",
     "github_url":"https://github.com/mln-mln-mln",
     "linkedin_url":"https://www.linkedin.com/in/milanmaharjan/"
+  },
+  {
+   "name": "Amrit Man Shrestha",
+   "email": "amritms@gmail.com",
+   "designation" : "Senior Software Engineer",
+   "experience" : "14",
+   "skills" : ["php", "Laravel", "javascript","nodejs", "reactjs", "MySQL", "PostgreSQL", "git", "docker"],
+    "current_company" : "Vurung Technologies",
+    "is_intern" : false,
+   "actively_job_searching": false,
+    "address" : "Kathmandu, Nepal",
+    "state" : 3,
+   "github_url" : "https://github.com/amritms" ,
+   "linkedin_url" : "https://www.linkedin.com/in/amritms/"
+}.
+  {
+    "name": "Aaditya Chapagain",
+    "email": "chapagain.aaditya@gmail.com",
+    "designation": "Machine Learning Engineer",
+    "experience": 2,
+    "skills":[ "Go", "Python", "google cloud", "Pytorch", "Flask", "Django", "MongoDB", "Computer Vision"],
+    "current_company": "Fusemachines",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address":"Kathmandu, Nepal",
+    "state":"3",
+    "github_url":"https://github.com/aadityachapagain",
+    "linkedin_url":"https://www.linkedin.com/in/aaditya-chapagain-b5170a104/"
   }
 ]
