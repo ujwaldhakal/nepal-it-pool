@@ -10,6 +10,8 @@ RUN go get ./
 RUN go build
 RUN chmod +x /go/src/github.com/user/sites/app/entrypoint.sh
 
+RUN chmod +x /go/src/github.com/user/sites/app/entrypoint.sh
+
 ENTRYPOINT ["/bin/bash","/go/src/github.com/user/sites/app/entrypoint.sh"]
 
 EXPOSE 8080
