@@ -8,6 +8,7 @@ WORKDIR /go/src/github.com/user/sites/app
 
 RUN go get ./
 RUN go build
+RUN chmod +x /go/src/github.com/user/sites/app/entrypoint.sh
 
 RUN chmod +x /go/src/github.com/user/sites/app/entrypoint.sh
 
