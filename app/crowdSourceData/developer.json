@@ -196,6 +196,19 @@
     "linkedin_url":"https://www.linkedin.com/in/milanmaharjan/"
   },
   {
+    "name": "Ashish K. Poudel",
+    "email": "routeasis@gmail.com",
+    "designation" : "Software Developer",
+    "experience" : 3,
+    "skills" : ["php","javascript"],
+    "current_company" : "Outside",
+    "is_intern" : false,
+    "actively_job_searching": false,
+    "address" : "Butwal, Nepal",
+    "state" : "5",
+    "github_url" : "https://github.com/ashishkpoudel" ,
+    "linkedin_url" : "https://www.linkedin.com/in/ashish-k-poudel-33784912b/" },
+  {
    "name": "Amrit Man Shrestha",
    "email": "amritms@gmail.com",
    "designation" : "Senior Software Engineer",
@@ -208,7 +221,7 @@
     "state" : 3,
    "github_url" : "https://github.com/amritms" ,
    "linkedin_url" : "https://www.linkedin.com/in/amritms/"
-}.
+},
   {
     "name": "Aaditya Chapagain",
     "email": "chapagain.aaditya@gmail.com",
