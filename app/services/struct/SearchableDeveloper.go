@@ -10,4 +10,7 @@ type DeveloperSearchableFields struct {
   Intern bool `form:"is_intern" json:"is_intern,omitempty"`
   Address string `form:"address" json:"address,omitempty"`
   State string   `form:"state" json:"state,omitempty"`
+  Sort string `form:"sort" json:"sort,omitempty"`
+  SortType string `form:"sort_type" json:"sort_type,omitempty"`
 }
+

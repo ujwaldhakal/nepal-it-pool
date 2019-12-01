@@ -3,7 +3,7 @@ package entity
 import (
   "fmt"
   "encoding/json"
-  //_ "reflect"
+  "reflect"
   "context"
   "strings"
   "github.com/olivere/elastic"
@@ -35,6 +35,26 @@ type DeveloperCollection struct {
   Total int64 `json:"total"`
 }
 
+
+func in_array(val interface{}, array interface{}) (exists bool, index int) {
+  exists = false
+  index = -1
+
+  switch reflect.TypeOf(array).Kind() {
+  case reflect.Slice:
+    s := reflect.ValueOf(array)
+
+    for i := 0; i < s.Len(); i++ {
+      if reflect.DeepEqual(val, s.Index(i).Interface()) == true {
+        index = i
+        exists = true
+        return
+      }
+    }
+  }
+
+  return
+}
 
 func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.DeveloperSearchableFields) DeveloperCollection  {
   ctx := context.Background()
@@ -77,6 +97,8 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
       searchQuery.Must(elastic.NewRangeQuery("experience").Gt(searchFields.MinExperience))
     }
 
+
+
     fmt.Println(searchFields.Skills)
 
   if len(searchFields.Skills) > 0 {
@@ -88,13 +110,32 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
     searchQuery.Must(elastic.NewTermsQuery("skills",values...))
   }
 
-	// Get tweet with specified ID
-  searchResult, err := client.Search().
-  Index("developer").   // search in index "twitter"
+  query := client.Search().
+  Index("developer").
   Query(searchQuery).
-  From(offset).Size(limit).   // take documents 0-9
-  Pretty(true).       // pretty print request and response JSON
-  Do(ctx)
+  From(offset).Size(limit).
+  Pretty(true)
+
+  if searchFields.Sort != "" {
+    sortableFields := []string{"experience", "name", "current_company","is_intern","actively_job_searching"}
+    fmt.Println(in_array(searchFields.Sort,sortableFields))
+    valueExists, _ := in_array(searchFields.Sort,sortableFields)
+
+    if searchFields.Sort == "name" || searchFields.Sort == "company" {
+      searchFields.Sort = searchFields.Sort+".raw"
+    }
+    if valueExists {
+      sortType := true
+      if searchFields.SortType == "desc" {
+        sortType = false
+      }
+      query.Sort(searchFields.Sort, sortType)
+    }
+  }
+
+  searchResult,err := query.Do(ctx)
+
+
 
   if err != nil {
     fmt.Println(err);
