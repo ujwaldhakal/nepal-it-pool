@@ -10,6 +10,8 @@ import (
   "io/ioutil"
    _ "reflect"
   "strconv"
+  "os"
+  "log"
 )
 
 
@@ -24,7 +26,7 @@ const mapping = `{
 				"name":{
 					"type":"text",
           "fields": {
-          "raw": { 
+          "raw": {
             "type":  "keyword"
           }
         }
@@ -44,7 +46,7 @@ const mapping = `{
 				"current_company":{
 					"type":"text",
           "fields": {
-          "raw": { 
+          "raw": {
             "type":  "keyword"
           }
         }
@@ -72,6 +74,52 @@ const mapping = `{
 	}
 }`
 
+
+
+func createDevelopersJsonFile() error {
+    files, err := ioutil.ReadDir("./crowdSourceData")
+        if err != nil {
+            log.Fatal(err)
+        }
+
+        var finalFile string = "./crowdSourceData/developer.json"
+        var developerJson string = "["
+        for index, file := range files {
+            developerData,  erro := ioutil.ReadFile("./crowdSourceData/" + file.Name())
+            if erro != nil {
+                log.Fatal(err)
+            }
+
+            if file.Name() != "developer.json" {
+                if index != 0 {
+                    developerJson += ","
+                }
+
+                developerJson += string(developerData)
+            }
+        }
+        developerJson += "]"
+    	f, err := os.OpenFile(finalFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+    	if err != nil {
+    		log.Fatal(err)
+    	}
+
+    	f.Truncate(0)
+    	f.Seek(0,0)
+    	f.Sync()
+
+    	if _, err := f.WriteString(developerJson); err != nil {
+    		f.Close() // ignore error; Write error takes precedence
+    		log.Fatal(err)
+    	}
+    	if err := f.Close(); err != nil {
+    		log.Fatal(err)
+    	}
+
+        fmt.Println(developerJson)
+
+        return nil
+}
 
 func jsonToStruct() []entity.Developer {
 
@@ -116,6 +164,8 @@ func createIndex(client *elastic.Client) {
 }
 
 func BulkImportDevData() bool {
+
+    createDevelopersJsonFile()
 
   client := elasticsearch.CreateClient()
 
