@@ -1,8 +1,8 @@
 name: Build and Push
 on:
   push:
-    branches:
-      - master
+    tags:
+      - '*'
 jobs:
   build_publish_gcr:
     runs-on: ubuntu-latest
