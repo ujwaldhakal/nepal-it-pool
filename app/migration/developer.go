@@ -130,10 +130,7 @@ func BulkImportDevData() bool {
   if exists {
       deleteIndex(client) // delete existing index
   }
-
-  if !exists {
-    createIndex(client)
-  }
+  createIndex(client)
 
   bulkRequest := client.Bulk()
   n := 0
