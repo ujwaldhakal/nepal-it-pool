@@ -362,5 +362,26 @@
     "state": "3",
     "github_url": "https://github.com/aadityachapagain",
     "linkedin_url": "https://www.linkedin.com/in/aaditya-chapagain-b5170a104/"
+  },
+  {
+    "name": "Rajan Bhattarai",
+    "email": "hello@cdrrazan.com",
+    "designation": "Software Engineer",
+    "experience": 3,
+    "skills": [
+      "Ruby",
+      "Rails",
+      "Google Cloud",
+      "Bash Scripting",
+      "GIT",
+      "Docker",
+    ],
+    "current_company": "Danphe Software Labs",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address": "Kathmandu, Nepal",
+    "state": "3",
+    "github_url": "https://rajan.link/github",
+    "linkedin_url": "https://rajan.link/linkedin"
   }
 ]
