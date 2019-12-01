@@ -21,6 +21,10 @@ So here some filters
 * address (e.g address=Kathmandu,Nepal)
 * state (e.g state=3)
 
+For sorting use
+* sort=key only `"experience", "name", "current_company","is_intern","actively_job_searching"` keys are available
+* sort_type=asc or desc , by default asc is used
+
  
  
  ## How to list yourself ?

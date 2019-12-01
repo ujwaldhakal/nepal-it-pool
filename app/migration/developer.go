@@ -14,8 +14,7 @@ import (
 
 
 
-const mapping = `
-{
+const mapping = `{
 	"settings":{
 		"number_of_shards": 1,
 		"number_of_replicas": 0
@@ -23,7 +22,12 @@ const mapping = `
 	"mappings":{
 			"properties":{
 				"name":{
-					"type":"text"
+					"type":"text",
+          "fields": {
+          "raw": { 
+            "type":  "keyword"
+          }
+        }
 				},
 				"email":{
 					"type":"text"
@@ -38,7 +42,12 @@ const mapping = `
 					"type":"text"
 				},
 				"current_company":{
-					"type":"text"
+					"type":"text",
+          "fields": {
+          "raw": { 
+            "type":  "keyword"
+          }
+        }
 				},
 				"is_intern":{
 					"type":"boolean"
