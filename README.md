@@ -29,7 +29,7 @@ For sorting use
  
  ## How to list yourself ?
  * Fork this repo
- * Edit the file `app/crowdSourceData/developer.json` Add your info in json format like
+ * Create the file at `app/crowdSourceData` with your github username like `app/crowdSourceData/ujwaldhakal`. Add your info in json format like
  To list your info here please edit 
  
  ```

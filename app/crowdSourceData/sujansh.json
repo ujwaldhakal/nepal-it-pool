@@ -1,0 +1,20 @@
+{
+  "name": "Sujan Shrestha",
+  "email": "sujan+itpool@outside.tech",
+  "designation": "CTO",
+  "experience": 11,
+  "skills": [
+    "PHP",
+    "Javacript",
+    "Git",
+    "MySql"
+  ],
+  "current_company": "OUTSIDE",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Lalitpur, Nepal",
+  "state": "3",
+  "twitter_url": "https://twitter.com/najussh",
+  "github_url": "https://github.com/sujansh",
+  "linkedin_url": "https://www.linkedin.com/in/sujansh/"
+}

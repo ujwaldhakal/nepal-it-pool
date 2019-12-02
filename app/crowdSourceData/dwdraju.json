@@ -1,0 +1,19 @@
+{
+  "name": "Raju Dawadi",
+  "email": "rajudawadinp+itpool@gmail.com",
+  "designation": "DevOps",
+  "experience": 3,
+  "skills": [
+    "container",
+    "terraform",
+    "cloud",
+    "python"
+  ],
+  "current_company": "Pagevamp",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Kathmandu, Nepal",
+  "state": "",
+  "github_url": "https://github.com/dwdraju",
+  "linkedin_url": "https://www.linkedin.com/in/dwdraju/"
+}
