@@ -1,0 +1,20 @@
+{
+  "name": "Basanta Dhakal",
+  "email": "basantaoffice@gmail.com",
+  "designation": "Senior Software Engineer",
+  "experience": 7,
+  "skills": [
+    "PHP",
+    "JavaScript",
+    "Laravel",
+    "NodeJS",
+    "Mysql"
+  ],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Kathmandu, Nepal",
+  "state": "3",
+  "github_url": "https://github.com/basanta123",
+  "linkedin_url": "https://www.linkedin.com/in/basanta-dhakal-ab282160/"
+}

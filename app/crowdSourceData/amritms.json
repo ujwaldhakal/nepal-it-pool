@@ -1,0 +1,24 @@
+{
+  "name": "Amrit Man Shrestha",
+  "email": "amritms@gmail.com",
+  "designation": "Senior Software Engineer",
+  "experience": "14",
+  "skills": [
+    "php",
+    "Laravel",
+    "javascript",
+    "nodejs",
+    "reactjs",
+    "MySQL",
+    "PostgreSQL",
+    "git",
+    "docker"
+  ],
+  "current_company": "Vurung Technologies",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Kathmandu, Nepal",
+  "state": "3",
+  "github_url": "https://github.com/amritms",
+  "linkedin_url": "https://www.linkedin.com/in/amritms/"
+}
