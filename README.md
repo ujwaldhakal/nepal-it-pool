@@ -3,11 +3,11 @@ A simple way to list tech workforce in Nepal.
 
 Simple api made on GO and ElasticSearch with json data.
 
-Goto https://nepal-it-pool-3pjwxgvmna-uc.a.run.app/ for listings     
+Goto https://itpool.network/ for listings     
 
 ## Filters
 
-All filters are query string param i.e https://nepal-it-pool-3pjwxgvmna-uc.a.run.app/?name=ujwal&skills=php,java
+All filters are query string param i.e https://itpool.network/?name=ujwal&skills=php,java
 
 So here some filters 
 
