@@ -9,7 +9,7 @@ Goto https://itpool.network/ for listings
 
 All filters are query string param i.e https://itpool.network/?name=ujwal&skills=php,java
 
-So here some filters 
+So here some search filters 
 
 * name (e.g name=ujwal)
 * designation (e.g designation=Software Engineer) 
@@ -20,6 +20,10 @@ So here some filters
 * is_intern (e.g is_intern=false)
 * address (e.g address=Kathmandu,Nepal)
 * state (e.g state=3)
+
+For Pagination 
+* limit (currently 10 is the default limit)
+* offset
 
 For sorting use
 * sort=key only `"experience", "name", "current_company","is_intern","actively_job_searching"` keys are available
