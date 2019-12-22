@@ -1,0 +1,31 @@
+{
+    "name": "Puncoz Nepal",
+    "email": "puncoz138+itpool@gmail.com",
+    "designation": "Full-Stack Software Engineer",
+    "experience": 6,
+    "skills": [
+        "php",
+        "laravel",
+        "nodejs",
+        "reactjs",
+        "vuejs",
+        "javacript",
+        "typescript",
+        "python",
+        "r-programming",
+        "git",
+        "mysql",
+        "postgres",
+        "tensorflow",
+        "machine learning",
+        "Computer Vision"
+    ],
+    "current_company": "YoungInnovations",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address": "Bhaktapur, Nepal",
+    "state": "Province #3",
+    "twitter_url": "https://twitter.com/PuncozNepal",
+    "github_url": "https://github.com/puncoz",
+    "linkedin_url": "https://www.linkedin.com/in/puncoz/"
+}
