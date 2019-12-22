@@ -9,6 +9,10 @@ Goto https://itpool.network/ for listings
 
 All filters are query string param i.e https://itpool.network/?name=ujwal&skills=php,java
 
+## Why do we need this
+* Since tech in nepal is so small and most techies are here in kathmandu we could get to know skills nearby so well
+* Still there are not enough skilled resource available for tech so this could be one stop for all job seeker 
+
 So here some search filters 
 
 * name (e.g name=ujwal)
