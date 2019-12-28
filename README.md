@@ -21,6 +21,7 @@ So here some search filters
 * max_exp (e.g max_exp=5)
 * min_exp (e.g min_exp=2)
 * skills (e.g skills=java,php)
+* previous_companies (e.g skills=ICN, Responsive Pixel, Pagevamp / Outside)
 * is_intern (e.g is_intern=false)
 * address (e.g address=Kathmandu,Nepal)
 * state (e.g state=3)
