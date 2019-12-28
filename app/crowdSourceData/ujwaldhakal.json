@@ -11,6 +11,11 @@
 
   ],
   "current_company": "Pagevamp",
+  "previous_companies" : [
+    "ICN",
+    "Responsive Pixel",
+    "Pagevamp / Outside"
+  ],
   "is_intern": false,
   "actively_job_searching": false,
   "address": "Kathmandu, Nepal",
