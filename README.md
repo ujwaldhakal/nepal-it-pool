@@ -47,6 +47,7 @@ For sorting use
     "designation" : "Software Engineer",
     "experience" : "5",
     "skills" : ["php","node","go"],
+    "previous_companies" :["ICN","Responsive Pixel","Pagevamp / Outside"],
      "current_company" : "Pagevamp",
      "is_intern" : false,
     "actively_job_searching": false,
