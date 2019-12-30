@@ -43,6 +43,9 @@ const mapping = `{
 				"skills":{
 					"type":"text"
 				},
+        "previous_companies":{
+					"type":"text"
+				},
 				"current_company":{
 					"type":"text",
           "fields": {
@@ -116,7 +119,6 @@ func createDevelopersJsonFile() error {
     		log.Fatal(err)
     	}
 
-        fmt.Println(developerJson)
 
         return nil
 }

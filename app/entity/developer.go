@@ -19,6 +19,7 @@ type Developer struct {
   Designation string   `json:"designation"`
   Experience  int   `json:"experience"`
   Skills      []interface{} `json:"skills"`
+  PreviousCompanies      []interface{} `json:"previous_companies"`
   CurrentCompany string   `json:"current_company"`
   IsIntern bool   `json:"is_intern"`
   ActivelyJobSearching bool   `json:"actively_job_searching"`
@@ -110,6 +111,15 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
     searchQuery.Must(elastic.NewTermsQuery("skills",values...))
   }
 
+  if len(searchFields.PreviousCompanies) > 0 {
+    input := strings.Split(searchFields.PreviousCompanies,",") //as newTerms only accepts multiple argument we had to turn to iterface
+    values := make([]interface{}, len(input))
+    for i, s := range input {
+      values[i] = s
+    }
+    searchQuery.Must(elastic.NewTermsQuery("previous_companies",values...))
+  }
+
   query := client.Search().
   Index("developer").
   Query(searchQuery).
@@ -118,7 +128,6 @@ func GetAllDeveloperData(offset, limit int,searchFields SearchableDeveloper.Deve
 
   if searchFields.Sort != "" {
     sortableFields := []string{"experience", "name", "current_company","is_intern","actively_job_searching"}
-    fmt.Println(in_array(searchFields.Sort,sortableFields))
     valueExists, _ := in_array(searchFields.Sort,sortableFields)
 
     if searchFields.Sort == "name" || searchFields.Sort == "company" {
