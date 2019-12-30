@@ -1,0 +1,15 @@
+{
+   "name": "Rajat Shrestha",
+   "email": "kasudyy@gmail.com",
+   "designation" : "Software Engineer",
+   "experience" : "1",
+   "skills" : ["python","docker","java","GraphQL"],
+   "previous_companies" :["eydean"],
+    "current_company" : "eydean",
+    "is_intern" : false,
+   "actively_job_searching": false,
+    "address" : "Samakhushi, Kathmandu,Nepal",
+    "state" : 3,
+   "github_url" : "https://github.com/ShresthaRajat" ,
+   "linkedin_url" : "https://www.linkedin.com/in/rajat-shrestha-634993188/"
+}
