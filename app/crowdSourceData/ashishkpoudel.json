@@ -1,0 +1,17 @@
+{
+  "name": "Ashish K. Poudel",
+  "email": "routeasis@gmail.com",
+  "designation": "Software Developer",
+  "experience": 3,
+  "skills": [
+    "php",
+    "javascript"
+  ],
+  "current_company": "Outside",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Butwal, Nepal",
+  "state": "5",
+  "github_url": "https://github.com/ashishkpoudel",
+  "linkedin_url": "https://www.linkedin.com/in/ashish-k-poudel-33784912b/"
+}

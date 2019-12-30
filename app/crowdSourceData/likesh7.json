@@ -1,0 +1,14 @@
+{
+  "name": "Likesh Shrestha",
+  "email": "likeshrestha7@gmail.com",
+  "designation": "Frontend Engineer",
+  "experience": 1.5,
+  "skills":[ "HTML5", "CSS3", "SASS", "JavaScript", "React", "Redux", "Jest"],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address":"Ason, Kathmandu, Nepal",
+  "state":"-",
+  "github_url":"https://github.com/Likesh7",
+  "linkedin_url":"https://www.linkedin.com/in/likesh-shrestha/"
+}

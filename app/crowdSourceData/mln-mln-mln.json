@@ -1,0 +1,19 @@
+{
+  "name": "Milan Maharjan",
+  "email": "milan.com@gmail.com",
+  "designation": "Developer",
+  "experience": 6,
+  "skills": [
+    "PHP",
+    "Vue",
+    "Laravel",
+    "Aws"
+  ],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Kathmandu, Nepal",
+  "state": "3",
+  "github_url": "https://github.com/mln-mln-mln",
+  "linkedin_url": "https://www.linkedin.com/in/milanmaharjan/"
+}

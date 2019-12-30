@@ -1,0 +1,18 @@
+{
+  "name": "Prajwal Shrestha",
+  "email": "prajwal_stha@yahoo.com",
+  "designation": "Senior Software Engineer",
+  "experience": 5,
+  "skills": [
+    "php",
+    "javascript",
+    "python"
+  ],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Sinamangal, Kathmandu, Nepal",
+  "state": "-",
+  "github_url": "https://github.com/prajwalstha123",
+  "linkedin_url": "https://www.linkedin.com/in/prajwalstha"
+}

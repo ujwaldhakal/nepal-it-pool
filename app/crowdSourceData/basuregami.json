@@ -1,0 +1,14 @@
+{
+  "name": "Basu Regami",
+  "email": "basuregami@gmail.com",
+  "designation": "Developer",
+  "experience": 3,
+  "skills": ["PHP", "Vue", "Laravel", "JavaScript"],
+  "current_company": "Hiup Solutions",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Kathmandu, Nepal",
+  "state": "3",
+  "github_url": "https://github.com/basuregami",
+  "linkedin_url": "https://www.linkedin.com/in/basuregami/"
+}

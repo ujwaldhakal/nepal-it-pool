@@ -1,0 +1,23 @@
+{
+  "name": "Geshan Manandhar",
+  "email": "geshan+itpool@gmail.com",
+  "designation": "Senior Software Engineer",
+  "experience": 11,
+  "skills": [
+    "php",
+    "nodejs",
+    "javacript",
+    "python",
+    "go",
+    "git",
+    "mysql"
+  ],
+  "current_company": "THE ICONIC",
+  "is_intern": false,
+  "actively_job_searching": false,
+  "address": "Sydney, Australia",
+  "state": "",
+  "twitter_url": "https://twitter.com/geshan",
+  "github_url": "https://github.com/geshan",
+  "linkedin_url": "https://www.linkedin.com/in/geshan/"
+}
