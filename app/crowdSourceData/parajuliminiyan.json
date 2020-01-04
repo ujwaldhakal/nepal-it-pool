@@ -1,0 +1,21 @@
+{
+    "name": "Miniyan Parajuli",
+    "email": "parajuliminiyan@gmail.com",
+    "designation": "Software Engineer",
+    "experience": 1,
+    "skills": [
+      "php",
+      "nodejs",
+      "react-js/native",
+      "mysql",
+      "Git"
+    ],
+    "current_company": "Javra Software",
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address": "Kathmandu, Nepal",
+    "state": "3",
+    "github_url": "https://github.com/parajuliminiyan",
+    "linkedin_url": "https://linkedin.com/in/parajuliminiyan/"
+  }
+  
