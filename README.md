@@ -59,7 +59,11 @@ For sorting use
  }
 ```
 * Push and make a PR
-    
+   
+## Removal Procedure
+If you want yourself to get removed from the list please remove your listing from `app/crowdSourceData` and send us PR .
+Note-: Please send with the same github account that is listed on list
+     
   
 ## Contribution Guidelines
 Go and elasticsearch has been used for this api.
@@ -72,5 +76,8 @@ Go and elasticsearch has been used for this api.
 
 
 Any suggestions to make search better please create issue with your detailed solutions :) 
+
+## Disclaimer 
+We wont be responsible for any misuse of data and we believe that the data you provided are for public general use :)  
 
 [![Generic badge](https://github.com/ujwaldhakal/nepal-it-pool/workflows/Build%20and%20Push/badge.svg)](https://github.com/ujwaldhakal/nepal-it-pool/actions)
