@@ -1,0 +1,16 @@
+{
+   "name": "Rajat Shrestha",
+   "email": "shresthar_31@hotmail.com",
+   "designation" : "Software Engineer",
+   "experience" : "1",
+   "skills" : ["python","Java"],
+   "previous_companies" :["Eydean Inc."],
+    "current_company" : "Eydean Inc.",
+    "is_intern" : false,
+   "actively_job_searching": false,
+    "address" : "Kathmandu,Nepal",
+    "state" : 3,
+   "github_url" : "https://github.com/shrestharajat/" ,
+   "linkedin_url" : "https://www.linkedin.com/in/shrestharajat/"
+    
+}
