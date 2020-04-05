@@ -1,0 +1,16 @@
+{
+   "name": "Dipen Dahal ",
+   "email": "dipendahal2008@gmail.com",
+   "designation" : "Software Developer",
+   "experience" : "5",
+   "skills" : ["php","java","react"],
+   "previous_companies" :["AccessPress","Responsive Pixel","Templatesell","ThemeMiles"],
+    "current_company" : "ThemeMiles",
+    "is_intern" : false,
+   "actively_job_searching": false,
+    "address" : "Corona Queens NewYork,USA",
+    "state" : NYC,
+   "github_url" : "https://github.com/dipendahal" ,
+   "linkedin_url" : "https://www.linkedin.com/in/dipendahal/"
+    
+}
