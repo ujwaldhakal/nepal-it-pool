@@ -1,0 +1,25 @@
+{
+    "name": "Mangal Hang Limbu",
+    "email": "lazehang@gmail.com",
+    "designation": "Software Engineer",
+    "experience": 2,
+    "skills": [
+      "php",
+      "node",
+      "mysql",
+      "vuejs",
+      "react",
+      "typescript"
+    ],
+    "current_company": "UNDONE",
+    "previous_companies" : [
+      "Pagevamp",
+      "Inbox IT"
+    ],
+    "is_intern": false,
+    "actively_job_searching": false,
+    "address": "Dharan, Nepal",
+    "state": "1",
+    "github_url": "https://github.com/lazehang",
+    "linkedin_url": "https://www.linkedin.com/in/mangal-limbu-05a951111"
+}
