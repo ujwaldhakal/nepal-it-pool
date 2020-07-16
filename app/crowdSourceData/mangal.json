@@ -7,7 +7,9 @@
       "php",
       "node",
       "mysql",
-      "vuejs"
+      "vuejs",
+      "react",
+      "typescript"
     ],
     "current_company": "UNDONE",
     "previous_companies" : [
