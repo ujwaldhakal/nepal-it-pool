@@ -1,0 +1,17 @@
+{
+  "name": "Aashish Dhakal",
+  "email": "aacees.guitarist@gmail.com",
+  "designation": "Web Developer",
+  "experience": "6 months",
+  "skills": [
+    "php",
+    "javascript",
+  ],
+  "current_company": "Dynavativ Ltd",
+  "is_intern": false,
+  "actively_job_searching": true,
+  "address": "Kathmandu, Nepal",
+  "state": "3",
+  "github_url": "https://github.com/oasis001",
+  "linkedin_url": "https://www.linkedin.com/in/aashish-dhakal-5b2b5619a/"
+}
